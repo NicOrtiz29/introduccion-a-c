@@ -50,6 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-#archivos de codeblocks
+
+# Archivos de codeblocks
 *.cbp
 *.layout
+
+# Archivos de Jetbrains CLion
+.idea
