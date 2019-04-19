@@ -16,7 +16,7 @@
 
 }
 */
-
+/*
 int main() {
     float calificaciones[5];  //no entiendo porque le pone el 5.. si despues repercute en algo o no. ==> RTA: Es el tamaño del array. Solo puede tener 5 elementos. A los array hay que definirlos con un tamaño si o si.
     float promedio = 0;  //aca esta diciendo que arranca en 0,..
@@ -43,3 +43,55 @@ int main() {
     printf("el promedio de las calificaciones es: %.2f\n\n", promedio / 5);  // Esto seria que el numero que le dio el promedio lo divda x5? ==> RTA: Sí.
     return 0;
 }
+*/
+
+int main(){
+    int n1,n2,n3,min,max;
+
+    printf("digite los 3 valores:  \n");
+    scanf("%i %i %i", &n1,&n2,&n3);
+
+    if(n1>n2){
+        if(n1>n3){
+            max=n1;
+        }
+        else{
+            max=n3;
+            }
+    }
+    else{
+        if(n2>n3){
+            max=n2;
+            }
+        else{
+            max=n3;
+        }
+    }
+    if(n1<n2){
+        if(n1<n3){
+            min=n1;
+        }
+
+        else{
+            min=n3;
+            }
+        }
+    else{
+     if(n2<n3){
+            min=n2;
+                }
+
+    else{
+        min=n3;
+    }
+
+    }
+
+
+    printf("el mayor de los valores es %i  \n", max);
+    printf("el menor de los valores es %i   \n", min);
+
+
+}
+
+
