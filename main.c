@@ -1,25 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*int main()
-{
-    int n1,n2,n3;
-
-    printf("ingrese 3 numeros: ");
-    scanf("%i" "%i" "%i", &n1 &n2 &n3);
-
-
-    while (n1>n2){
-
-
-    }
-
-}
-*/
+void saludar(int cantidad, char* saludo);
 
 int main() {
     float calificaciones[5];  //no entiendo porque le pone el 5.. si despues repercute en algo o no. ==> RTA: Es el tamaño del array. Solo puede tener 5 elementos. A los array hay que definirlos con un tamaño si o si.
     float promedio = 0;  //aca esta diciendo que arranca en 0,..
+
+    saludar(3, "que hace papa!\n");
 
     printf("programa que calucla promedio de 5 califiaciones..... \n");
 
@@ -42,4 +30,13 @@ int main() {
 
     printf("el promedio de las calificaciones es: %.2f\n\n", promedio / 5);  // Esto seria que el numero que le dio el promedio lo divda x5? ==> RTA: Sí.
     return 0;
+}
+
+void saludar(int cantidad, char* saludo) {
+
+    for (int i = 0; i < cantidad; ++i) {
+        printf(saludo);
+    }
+
+    printf("salio del for\n");
 }
