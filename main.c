@@ -45,7 +45,7 @@ int main() {
 }
 */
 
-int main(){
+/*int main(){
     int n1,n2,n3,min,max;
 
     printf("digite los 3 valores:  \n");
@@ -93,5 +93,27 @@ int main(){
 
 
 }
+*/
 
 
+/*int main(){
+
+    char nombre[20];
+    printf("introduzca su nombre: ");
+    scanf("%s", nombre);
+    printf("buenos dias %s",nombre);
+
+
+}
+*/
+
+int main(){
+    float euro = 50;
+    int pesos;
+
+    printf("ingrese un monto en pesos:  ");
+    scanf("%f", &pesos);
+        float suma = (pesos / euro);
+    printf("el equivalente en euros es: %.2f",suma);
+
+}
