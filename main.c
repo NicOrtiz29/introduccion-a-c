@@ -12,7 +12,7 @@ int main() {
     saludar(3, "que hace papa!\n");
 
     runRestaurantExercise();
-
+    // runEuroExercise();
     // sacarPromedio();
     // ordenarValores();
 
@@ -96,7 +96,6 @@ void ordenarValores() {
     printf("el mayor de los valores es %i  \n", max);
     printf("el menor de los valores es %i   \n", min);
 }
-*/
 
 
 /*int main(){
@@ -110,7 +109,7 @@ void ordenarValores() {
 }
 */
 
-int main(){
+int runEuroExercise() {
     float euro = 50;
     int pesos;
 
