@@ -5,6 +5,23 @@
 #include "stdio.h"
 #include "restaurant.h"
 
+#define CANTIDAD 4
+
 void runRestaurantExercise() {
-    printf("Running function runRestaurantExercise");
+    printf("Running function runRestaurantExercise\n");
+
+    char platos[CANTIDAD][50];
+    float precios[CANTIDAD];
+
+
+    for (int i = 0; i < CANTIDAD; i++) {
+        printf("ingrese el nombre del plato %d: \n", i + 1);
+        scanf("%s", platos[i]);
+
+    }
+
+    for (int i = 0; i < CANTIDAD; i++) {
+        printf("%s", platos[i]);
+    }
+
 }
