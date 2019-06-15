@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(nico_introduccion_a_c main.c)
+add_executable(nico_introduccion_a_c main.c restaurant.c restaurant.h)
