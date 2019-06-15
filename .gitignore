@@ -54,6 +54,7 @@ dkms.conf
 ### Archivos del IDE CodeBlocks
 *.cbp
 *.layout
+bin
 
 ### Archivos del IDE JetBrains CLion
 .idea
