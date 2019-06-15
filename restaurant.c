@@ -18,10 +18,8 @@ void runRestaurantExercise() {
         printf("ingrese el nombre del plato %d: \n", i + 1);
         scanf("%s", platos[i]);
 
-    }
+        printf("ingrese el valor del plato %d: \n", i + 1);
+        scanf("%f", &precios[i]);
 
-    for (int i = 0; i < CANTIDAD; i++) {
-        printf("%s", platos[i]);
     }
-
 }

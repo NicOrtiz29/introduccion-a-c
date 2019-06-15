@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <restaurant.h>
+#include <saraza.h>
+
 
 void saludar(int cantidad, char *mensaje);
 
@@ -10,7 +12,7 @@ void ordenarValores();
 
 int main() {
     saludar(3, "que hace papa!\n");
-
+    //runsarazatExercise();
     runRestaurantExercise();
     // runEuroExercise();
     // sacarPromedio();
